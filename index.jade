@@ -1,0 +1,84 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        title "Bootstrap Project"
+        meta(name="viewport", content="width=devide-width;initial-scale=1")
+
+        link(href="css/style.css", rel="stylesheet")
+
+    body
+        .container-fluid
+            #header
+                h1 Tim Squires
+                h2 Web Developer
+        .container
+            nav
+                ul
+                    li: a(href="#content") Start of Resume
+                    li: a(href="#experience") Experience/Skills
+                    li: a(href="#projects") Work
+                    li: a(href="#workHistory") Work History
+            #content
+                section#experience
+                    #skills
+                        h2 Skills
+                        h3 HTML5
+                        h3 CSS3
+                        h3 JavaScript
+
+                    #other
+                        h2 Reading
+                        h2 Blogs
+
+                section#projects
+                    h2 Personal
+                    #personal
+
+                        #proj1.project
+                            h3 Road to Antiock
+                            p Brief Description
+                            img(src="#", alt="project image")
+                            p.
+                                Mmore information regarding the project.
+                            a(href="#") Link to Site
+                        #proj2.project
+                            h3 9 to 5 Guy
+                            p Brief Description
+                            img(src="#", alt="project image")
+                            p.
+                                Mmore information regarding the project.
+                            a(href="#") Link to Site
+                        #proj3.project
+                            h3 childfree.life
+                            p Brief Description
+                            img(src="#", alt="project image")
+                            p.
+                                Mmore information regarding the project.
+                            a(href="#") Link to Site
+                    h2 Professional
+
+                    #professional
+                        h3 To Be Updated...
+
+                section#workHistory
+                    h2 Work History
+                    ul
+                        li.job.job1
+                            h3 Dry Color USA
+                            h4 2014 - Present
+
+                        li.job.job2
+                            h3 Target
+                            h4 2012-2013
+                        li.job.job1
+                            h3 MovieStop
+                            h4 2010-2011
+                        li.job.job2
+                            h3 Mechanical Services
+                            h4 2009-2010
+            footer
+
+
+
+        script(src="js/script.js")
